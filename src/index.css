@@ -1,0 +1,48 @@
+/* navbar */
+.navbar {
+    min-height: 10vh;
+}
+.img-navbar {
+    height: 50px;
+}
+/* footer */
+.footer {
+    min-height: 10vh;
+}
+/* home */
+.home {
+    min-height: 90vh;
+}
+.titulo{
+    margin-left: 4%;
+    color: rgb(201, 0, 101);
+}
+/* personajes */
+.lista-grupal-personajes {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    height: 550px;
+}
+.lista-grupal-personajes > * {
+    flex: 0 0 350px;
+}
+/* ubicaciones */
+.lista-grupal-ubicaciones {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    height: 700px;
+}
+.lista-grupal-ubicaciones > * {
+    flex: 0 0 350px;
+}
+/* lista componentes individuales */
+.lista-individual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
